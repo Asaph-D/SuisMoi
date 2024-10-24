@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envoyer un souhait personnalisé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Formulaire pour entrer le souhait personnalisé et le nom de la personne -->
+    <header id="header-message">
+        <h1 id="personalized-wish" class="hidden"></h1>
+    </header>
+
+    <div id="dialog-box" class="dialog">
+        <p>Bienvenue, êtes-vous prêt à envoyer un souhait ?</p>
+        <button id="yes-btn">Oui</button>
+        <button id="no-btn">Non</button>
+    </div>
+ 
+    <!-- Zone d'affichage du nom en arrière-plan -->
+    <div id="name-reveal-container"></div>
+
+    <!-- Message en bas avec verset biblique -->
+    <div id="footer-message" class="hidden">
+        <p id="bible-verse"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
